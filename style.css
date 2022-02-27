@@ -419,34 +419,30 @@ width: 50px;
    .div-txt{
        width: auto;
    }
-  
+   html{
+       height: 590px;
+   }
    
 }
 @media screen and (max-width:414px) {
-html{
-    height: 800px;
-}
-    .colapsu{
+.colapsu{
     margin-left: 310px;
 }
 
 .explorar{
-    
-    width: 250px;
-    height: 250px;
-    border-radius: 250px;
-    margin-left: 210px;
-}
-.explore{
-    margin-top: 400px;
+    margin-top: 100px;
+    width: 210px;
+    height: 210px;
+    border-radius: 210px;
+    margin-left: 225px;
 }
 .div-txt{
     margin-top: 20px;
     font-size: 20px;
 }
 .explorar h1{
-margin-top: -10px;
-font-size: 35px;
+margin-top: -30px;
+font-size: 30px;
 }
 .txt h2{
     
