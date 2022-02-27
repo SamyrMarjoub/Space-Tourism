@@ -520,8 +520,10 @@ margin-top: -230px;
     .explorar{
         width: 220px;
         height: 220px;
-        border-radius: 220px;
-        margin-left: 225px;
+        border-radius: 200px;
+        margin-left: 200px;
+        margin-left: 220px;
+        margin-top: 10px;
     }
     .explorar h1{
         margin-top: -30px;
@@ -534,6 +536,12 @@ margin-top: -230px;
     .txt h1{
         font-size: 60px;
         margin-left: 320px;
+    }
+    .txt h2{
+        margin-top: -260px;
+    }
+    .explorar a{
+        width: auto;
     }
 }
 
