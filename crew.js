@@ -7,6 +7,7 @@ const nome = document.querySelector('.name')
 const description = document.querySelector('.description')
 const img = document.querySelector('.imagemI')
 const body = document.querySelector('body')
+const butoes =document.querySelector('.buttons')
 btn.addEventListener('click', function () {
     btn.style.backgroundColor = 'white'
     profile.innerHTML = 'COMMANDER'
@@ -30,9 +31,13 @@ btn2.addEventListener('click', function () {
     img.style.width = '400px'
    let vn = document.documentElement.clientWidth
      if(vn<=425){
-        profile.style.marginLeft = '-250px'
-        nome.style.marginLeft = '-400px'
-       profile.style.width = '800px'
+        profile.style.marginLeft = '-480px'
+        nome.style.marginLeft = '-480px'
+        nome.style.fontSize = '25px'
+       profile.style.width = '400px'
+       description.style.fontSize = '15px'
+       img.style.maxWidth ='170px'
+
      }   
     
 })
@@ -45,9 +50,11 @@ btn3.addEventListener('click', function () {
     img.style.width = '500px'
     let vn = document.documentElement.clientWidth
     if(vn<=425){
-        profile.style.marginLeft = '-200px'
-        nome.style.marginLeft = '-250px'
-       profile.style.width = '700px'
+        profile.style.marginLeft = '-370px'
+        nome.style.marginLeft = '-490px'
+       profile.style.width = '70px'
+       profile.style.marginTop = '-550px'
+       butoes.style.marginTop = '-300px'
      }   
    
 })
@@ -60,9 +67,13 @@ btn4.addEventListener('click', function () {
     img.style.width = '500px'
     let vn = document.documentElement.clientWidth
     if(vn<=425){
-        profile.style.marginLeft = '-200px'
-        nome.style.marginLeft = '-250px'
+        profile.style.marginLeft = '-460px'
+        nome.style.width = '400px'
        profile.style.width = '700px'
+       nome.style.marginLeft = '-510px'
+       profile.style.width = '300px'
+       profile.style.marginTop = '-550px'
+       butoes.style.marginTop = '-270px'
      }   
     
 })

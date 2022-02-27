@@ -6,6 +6,7 @@ body{
     background-size: cover;
     color: white;
  background-attachment: fixed;
+ 
     
 }
 header{
@@ -649,6 +650,13 @@ font-size: 30px;
         border-bottom: 1px solid white;
     }
 }
+@media screen and (max-width:412px) {
+    .moons{
+        width: 340px;
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width:393px) {
 .title h1{
     font-size: 18px;
@@ -723,7 +731,7 @@ width: 250px;
 }
 .moons{
     margin-left: -170px;
-    width: 350px;
+    width: 330px;
 }
 .moon-txt{
     margin-left: 70px;
