@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Itim&family=Roboto:ital,wght@0,100;0,300;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Barlow:wght@100&family=Bellefair&family=Itim&family=Roboto:ital,wght@0,100;0,300;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bellefair&family=Itim&family=Roboto:ital,wght@0,100;0,300;1,300;1,400&display=swap');
+html{
+width: auto;
+height: auto;
+}
 body{
     background-image: url('./space-tourism-website-main/space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg');
     background-size: cover;
     color: white;
-    background-repeat: no-repeat;
+
     background-attachment: fixed;
 }
 .b1{
@@ -315,6 +319,7 @@ left: 40%;
 @media screen and (max-width:425px) {
     body{
         background-image: url('./space-tourism-website-main/space-tourism-website-main/starter-code/assets/home/background-home-mobile.jpg');
+
     }
    .lista{
        display: none;
@@ -323,16 +328,17 @@ left: 40%;
        display: none;
    }
    .imagem{
-       width: 120px;
-       margin-left: 20px;
+       width: 40px;
+       margin-left: 5px;
+       margin-top: 30px;
    }
    .mobile-section{
        display: block;
-       margin-left: 500px;
-   margin-top: 80px;
+       margin-left: -270px;
+   margin-top: 30px;
     }
    .menu-img{
-       width: 100px;
+       width: 50px;
    }
    .mobile-section button{
        background-color: transparent;
@@ -349,74 +355,176 @@ background-color: #575c65;
 width: 50px;
    }
    .colapsu{
-       width: 500px;
-       height: 3000px;
-       margin-left: 100px;
+       width: 150px;
+       height: 600px;
+       margin-left: 315px;
   backdrop-filter: blur(80px);
     position:absolute;
     margin-top: -150px;
     z-index: 1;
    }
    .colapsu li{
-       margin-top: 200px;
+       margin-top: 60px;
        font-family:  "Barlow Condensed",sans-serif;  
        color:#d2d8f9;
-       margin-left:100px;
+       margin-left:0px;
    }
    .colapsu ul{
-       margin-top: 350px;
+       margin-top: 200px;
+       margin-left: -10px;
    }
    .colapsu a{
        color: white;
        list-style: none;
-       font-size: 50px;
+       font-size: 15px;
      
    }
    .txt h2{
-       margin-left: 600px;
-       font-size: 50px;
-       width: 600px;
+       margin-left: 330px;
+       font-size: 17px;
+       width: 250px;
+       margin-top: -270px;
    }
    .explorar{
-       margin-top: 1000px;
-       margin-left:400px;
-       width: 800px;
-       height: 800px;
-       border-radius: 800px;
+       margin-top: -10px;
+       margin-left:230px;
+       width: 190px;
+       height: 190px;
+       border-radius: 190px;
    }
    .explorar h1{
-       font-size: 100px;
-       margin-top: 250px;
+       font-size: 25px;
+       margin-top: -50px;
+       height: 50px;
        
    }
    .txt h1{
-       margin-left: 500px;
-       font-size: 250px;
+       margin-left: 350px;
+       font-size: 65px;
+       margin-top: 20px;
    }
-   .txt p{
-       font-size: 50px;
-       width: 1150px;
-       margin-top: 200px;
-       margin-left: 50px;
+   
+   .frontend {
+    bottom:620px;
+    font-size: 15px;
+    left: 10px;
+    position: fixed;
+    width: auto;
+    width: 400px;
+    
    }
-   .frontend{
-     z-index: 1;
-     font-size: 40px;
-     position: absolute;
-     bottom: -1400px;
-    left: 150px;
-    width: 1200px;
+   
+   .div-txt p{
+       font-size: 15px;
+       margin-left: 00px;
+       width: 350px;
+       margin-top: 10px;
+       text-align: center;
+   }
+   .div-txt{
+       width: auto;
+   }
+   html{
+       height: 590px;
    }
    
 }
-
-@media screen and (max-width:320px) {
+@media screen and (max-width:414px) {
+.colapsu{
+    margin-left: 310px;
+}
 .frontend{
-    bottom: -1660px;
-    font-size: 45px;
-    left: 30px;
+  bottom:710px;
+}
+.explorar{
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    margin-left: 200px;
 }
 .div-txt{
-    margin-left: 220px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.explorar h1{
+margin-top: -10px;
+font-size: 35px;
+}
+.txt h2{
+    
+    margin-top: -200px;
+    margin-left: 320px;
+}
+.txt h1{
+    font-size: 70px;
+    margin-left: 330px;
 }
 }
+@media screen and (max-width:393px) {
+    .txt p{
+margin-left: -20px;
+    }
+    .txt h1{
+        margin-left: 310px;
+    }
+    .txt h2{
+margin-left: 305px;
+    }
+    .frontend{
+        bottom: 660px;
+    }
+    .menu-img{
+        margin-left: -20px;
+    }
+    .colapsu{
+        margin-left: 300px;
+    }
+}
+@media screen and (max-width:375px) {
+   .txt h2{
+margin-top: -230px;
+   }
+   .explorar{
+       width: 220px;
+       height: 220px;
+       border-radius: 220px;
+       margin-left: 220px;
+       margin-top:30px;
+   }
+   .frontend{
+       bottom: auto;
+   }
+   .explorar h1{
+       margin-top: -25px;
+   }
+   .colapsu{
+       margin-left: 290px;
+   }
+    }
+@media screen and (max-width:360px) {
+    .explore{
+        margin-top: 270px;
+    }
+    .frontend{
+        bottom: 650px;
+        font-size: 13px;
+      
+    }
+    .colapsu{
+        margin-left: 290px;
+    }
+    .menu-img{
+        margin-left: -30px;
+    }
+    .explorar{
+        width: 240px;
+        height: 240px;
+        border-radius: 240px;
+        margin-left: 220px;
+    }
+    .txt p{
+        margin-left: -30px;
+    }
+}
+
