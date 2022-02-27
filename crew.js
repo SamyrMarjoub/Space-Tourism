@@ -15,12 +15,9 @@ btn.addEventListener('click', function () {
     description.innerHTML = 'Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.'
     img.setAttribute('src', './space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/image-douglas-hurley.png')
     img.style.width = '400px'
-    if(vn<=425){
-        profile.style.marginLeft = '-200px'
-        nome.style.marginLeft = '-250px'
-       profile.style.width = '700px'
+butoes.style.marginTop = '-280px'
+img.style.marginTop = '10px'
      
-     }   
 })
 btn2.addEventListener('click', function () {
     btn.style.backgroundColor = 'transparent'
@@ -31,12 +28,12 @@ btn2.addEventListener('click', function () {
     img.style.width = '400px'
    let vn = document.documentElement.clientWidth
      if(vn<=425){
-        profile.style.marginLeft = '-480px'
-        nome.style.marginLeft = '-480px'
-        nome.style.fontSize = '25px'
-       profile.style.width = '400px'
-       description.style.fontSize = '15px'
-       img.style.maxWidth ='170px'
+      profile.style.marginLeft = '-480px'
+nome.style.marginLeft = '-500px'
+nome.style.fontSize = '30px'
+description.style.fontSize = '15px'
+img.style.maxWidth = '160px'
+butoes.style.marginTop = '-280px'
 
      }   
     
@@ -50,11 +47,8 @@ btn3.addEventListener('click', function () {
     img.style.width = '500px'
     let vn = document.documentElement.clientWidth
     if(vn<=425){
-        profile.style.marginLeft = '-370px'
-        nome.style.marginLeft = '-490px'
-       profile.style.width = '70px'
-       profile.style.marginTop = '-550px'
-       butoes.style.marginTop = '-300px'
+      butoes.style.marginTop = '-320px'
+profile.style.marginTop = '-520px'
      }   
    
 })
@@ -67,13 +61,8 @@ btn4.addEventListener('click', function () {
     img.style.width = '500px'
     let vn = document.documentElement.clientWidth
     if(vn<=425){
-        profile.style.marginLeft = '-460px'
-        nome.style.width = '400px'
-       profile.style.width = '700px'
-       nome.style.marginLeft = '-510px'
-       profile.style.width = '300px'
-       profile.style.marginTop = '-550px'
-       butoes.style.marginTop = '-270px'
+       
+
      }   
     
 })
@@ -85,7 +74,7 @@ menu.addEventListener('click', function (e) {
     if (i % 2 != 0) {
         menu.setAttribute('src', "./space-tourism-website-main/space-tourism-website-main/starter-code/assets/shared/icon-close.svg")
     } else {
-        menu.setAttribute('src', "./space-tourism-website-main/space-tourism-website-main/starter-code/assets/shared/icon-Hamburger.svg")
+        menu.setAttribute('src', "./space-tourism-website-main/space-tourism-website-main/starter-code/assets/shared/icon-hamburger.svg")
 
     }
 

@@ -393,12 +393,12 @@ border: 1px solid white;
 font-size: 30px;
     margin-top:-490px;
     margin-left: -420px;
-    width: 200px;
+    width: 400px;
   
 }
 .name{
     font-size: 35px;
-    width: 350px;
+    width: 450px;
     margin-left: -490px;
     margin-top:20px;
 }
@@ -439,13 +439,14 @@ font-size: 30px;
         font-family:  "Barlow Condensed",sans-serif;  
         color:#d2d8f9;
       margin-left: 0px;
-    padding-top: 100px;
+    padding-top: 90px;
+   
 
     }
     .colapsu ul{
         margin-top: 150px;
         backdrop-filter: blur(80px);
-    height:650px;
+    height:500px;
     width: 150px;
     margin-left: 75px;
    
@@ -456,7 +457,7 @@ font-size: 30px;
         list-style: none;
         font-size: 18px;
         z-index: 2;
-        font-size: 25px;
+        font-size: 20px;
 
 }
 }
