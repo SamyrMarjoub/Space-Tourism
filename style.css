@@ -419,25 +419,26 @@ width: 50px;
    .div-txt{
        width: auto;
    }
-   html{
-       height: 590px;
-   }
+  
    
 }
 @media screen and (max-width:414px) {
 html{
-    height: auto;
+    height: 800px;
 }
     .colapsu{
     margin-left: 310px;
 }
 
 .explorar{
-    margin-top: 150px;
+    
     width: 250px;
     height: 250px;
     border-radius: 250px;
     margin-left: 210px;
+}
+.explore{
+    margin-top: 400px;
 }
 .div-txt{
     margin-top: 20px;
