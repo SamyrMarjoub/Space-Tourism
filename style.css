@@ -405,11 +405,7 @@ width: 50px;
    }
    
    .frontend {
-    bottom:630px;
-    font-size: 13px;
-  position: absolute;
-  width: auto;
-  margin-left: -40px;
+    display: none;
     
    }
    
@@ -432,19 +428,13 @@ width: 50px;
 .colapsu{
     margin-left: 310px;
 }
-.frontend{
-    bottom:630px;
-    font-size: 13px;
-  position: absolute;
-  width: auto;
-  margin-left: -40px;
-}
+
 .explorar{
-    margin-top: 50px;
+    margin-top: 40px;
     width: 250px;
     height: 250px;
     border-radius: 250px;
-    margin-left: 200px;
+    margin-left: 210px;
 }
 .div-txt{
     margin-top: 20px;
