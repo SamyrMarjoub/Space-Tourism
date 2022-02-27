@@ -386,15 +386,15 @@ width: 50px;
        margin-top: -270px;
    }
    .explorar{
-       margin-top: -10px;
-       margin-left:230px;
-       width: 190px;
-       height: 190px;
-       border-radius: 190px;
+       margin-top:  10px;
+       margin-left:205px;
+       width: 250px;
+       height: 250px;
+       border-radius: 250px;
    }
    .explorar h1{
-       font-size: 25px;
-       margin-top: -50px;
+       font-size: 30px;
+       margin-top: -20px;
        height: 50px;
        
    }
@@ -405,12 +405,11 @@ width: 50px;
    }
    
    .frontend {
-    bottom:620px;
-    font-size: 15px;
-    left: 10px;
-    position: fixed;
-    width: auto;
-    width: 400px;
+    bottom:630px;
+    font-size: 13px;
+  position: absolute;
+  width: auto;
+  margin-left: -40px;
     
    }
    
@@ -434,10 +433,14 @@ width: 50px;
     margin-left: 310px;
 }
 .frontend{
-  bottom:710px;
+    bottom:630px;
+    font-size: 13px;
+  position: absolute;
+  width: auto;
+  margin-left: -40px;
 }
 .explorar{
-    margin-top: 100px;
+    margin-top: 50px;
     width: 250px;
     height: 250px;
     border-radius: 250px;
@@ -453,14 +456,17 @@ font-size: 35px;
 }
 .txt h2{
     
-    margin-top: -200px;
+    margin-top: -230px;
     margin-left: 320px;
 }
 .txt h1{
     font-size: 70px;
     margin-left: 330px;
+    
 }
 }
+
+
 @media screen and (max-width:393px) {
     .txt p{
 margin-left: -20px;
@@ -470,15 +476,22 @@ margin-left: -20px;
     }
     .txt h2{
 margin-left: 305px;
+margin-top: -250px;
     }
     .frontend{
-        bottom: 660px;
+        bottom:630px;
+        font-size: 13px;
+      position: absolute;
+      width: auto;
     }
     .menu-img{
         margin-left: -20px;
     }
     .colapsu{
         margin-left: 300px;
+    }
+    .explorar{
+        margin-top: 50px;
     }
 }
 @media screen and (max-width:375px) {
@@ -490,10 +503,15 @@ margin-top: -230px;
        height: 220px;
        border-radius: 220px;
        margin-left: 220px;
-       margin-top:30px;
+       margin-top:50px;
    }
    .frontend{
-       bottom: auto;
+       
+    bottom:620px;
+    font-size: 13px;
+  position: absolute;
+  width: auto;
+  margin-left: -60px;
    }
    .explorar h1{
        margin-top: -25px;
@@ -507,9 +525,10 @@ margin-top: -230px;
         margin-top: 270px;
     }
     .frontend{
-        bottom: 650px;
+        bottom:630px;
         font-size: 13px;
-      
+      position: absolute;
+      width: auto;
     }
     .colapsu{
         margin-left: 290px;
