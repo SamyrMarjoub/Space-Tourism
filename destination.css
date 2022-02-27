@@ -1,0 +1,781 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Itim&family=Roboto:ital,wght@0,100;0,300;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Barlow:wght@100&family=Bellefair&family=Itim&family=Roboto:ital,wght@0,100;0,300;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bellefair&family=Itim&family=Roboto:ital,wght@0,100;0,300;1,300;1,400&display=swap');
+body{
+    background-image: url('./space-tourism-website-main/space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg');
+    background-size: cover;
+    color: white;
+ background-attachment: fixed;
+    
+}
+header{
+    width: 100%;
+}
+.b1{
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-top:0px;
+    margin-right: 80px;
+ margin-left:70px;
+ cursor: pointer;  
+ height: 78px;
+ outline: none;
+ font-family:  "Barlow Condensed",sans-serif;
+ font-size: 15px;
+ letter-spacing: 2px;
+ font-weight: 800;
+}
+.linha::after{
+    content:'';
+    border-bottom: white 2px solid;
+    display: block;
+    width: 110px;
+    margin-left: 70px;
+    margin-top: 0px;
+}
+.hr{
+    background-color: #575c65;
+    width: 600px;
+    height: 1px;
+    margin-left: -250px;
+    margin-top: -20px;
+}
+.lista{
+  background-color: hsla(0,0%,100%,.05);
+  backdrop-filter: blur(80px);
+  width: 1100px;
+  height: 100px;
+  margin-left: -155px;
+  margin-top: 40px;
+}
+.lista .butao{
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-top:30px;
+    margin-right: 80px;
+ margin-left:70px;
+ cursor: pointer;  
+ height: 78px;
+ outline: none;
+ font-family:  "Barlow Condensed",sans-serif;
+ font-size: 15px;
+ letter-spacing: 2px;
+ font-weight: 800;
+}
+.lista a{
+    text-decoration: none;
+    color: white;
+}
+.imagem{
+    margin-left: -320px;
+    margin-top: 70px;
+}
+.lista .butao:after {
+    display:block;
+    content: '';
+    border-bottom: solid 2px rgb(167, 164, 164);  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+  .lista .butao:hover:after { transform: scaleX(1);
+ }
+  .lista .butao.Left:after{  transform-origin:  0% 50%; 
+padding-bottom: 30px;
+}
+h2{
+    font-size: 27px;
+margin-right: 30px;
+font-family: 'Barlow Condensed', sans-serif;
+letter-spacing: 3px;
+font-weight: 700;
+opacity: 0.25;
+margin-left: -200px;
+float: left;
+}
+h1{
+    margin-top: 20px;
+    font-size: 27px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 700;
+margin-left: -150px;
+}
+.lua{
+    margin-left: -200px;
+    margin-top: 100px;
+}
+.moons button{
+background-color: transparent;
+border: none;
+outline: none;
+cursor: pointer;
+font-size: 16px;
+color: #D0D6F9;
+font-family: 'Barlow Condensed', sans-serif;
+margin-right: 20px;
+font-weight: 900;
+letter-spacing: 3px;
+}
+.moons{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.moons .butao:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3px rgb(167, 164, 164);  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+  .moons .butao:hover:after { transform: scaleX(1);
+ }
+  .moons .butao.Left:after{  transform-origin:  0% 50%; 
+padding-bottom: 0px;
+
+  }
+
+.moon-title{
+    font-size: 100px;
+ font-family:  'Bellefair', serif;
+ letter-spacing: 2px;
+ font-weight: 100;
+ margin-left: 50px;
+ margin-top: 30px;
+}
+.moon-info{
+    width: 480px;
+}
+.moon-txt{
+    margin-left: 60px;
+font-family: 'Barlow', sans-serif;
+font-size: 17px;
+color: #D0D6F9;
+font-weight: 600;
+line-height: 35px;
+}
+.linha-traco{
+    display: block;
+    width: 450px;
+    height: 1px;
+    background-color: #575c65;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.mobile-section{
+    display: none;
+}
+.avg-est{
+    margin-left: 60px;
+    color: #D0D6F9;
+    margin-top: 20px;
+}
+.info-avg{
+    margin-right: 100px;
+}
+.avg-est-result{
+    margin-top: 10px;
+    margin-left: 60px;
+ font-family:  'Bellefair', serif;
+font-size: 30px;
+}
+.avg-result{
+    margin-right: 60px;
+
+}
+@media screen and (max-width:1440px) {
+.imagem{
+    margin-left: -130px;
+}
+.hr{
+    width: 400px;
+    margin-left: -50px;
+}
+.title{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.lua{
+    margin-left: -70px;
+}
+.moon-info{
+    margin-left: 100px;
+}
+.moons{
+    margin-top: 40px;
+    margin-left: 150px;
+}
+.linha::after{
+    content:'';
+    border-bottom: white 2px solid;
+    display: block;
+    width: 60px;
+    margin-left: 75px;
+    margin-top: 0px;
+}
+}
+@media screen and (max-width:1280px) {
+    .imagem{
+        margin-left: -10px;
+    }
+    .hr{
+        width: 300px;
+        margin-left: 80px;
+    }
+    .title{
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    .lua{
+        margin-left:0px;
+    }
+    .moon-info{
+        margin-left: 150px;
+    }
+    .moons{
+        margin-left: 200px;
+        width: 500px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .imagem{
+        margin-left: -30px;
+    }
+    .hr{
+        width: 350px;
+        margin-left: 80px;
+    }
+    .lista{
+      width:700px;
+     margin-left: 10px;
+    }
+    
+    .lista li{
+        margin-left: -100px;
+    }
+    .lista button{
+        margin-left: 150px;
+    }
+    .linha::after{
+        content:'';
+        border-bottom: white 2px solid;
+        display: block;
+        width: 60px;
+        margin-left: 155px;
+        margin-top: 0px;
+    }
+    body{
+ background-attachment: fixed;
+    }
+   .title{
+       margin-left: 250px;
+       margin-top: 0px;
+   }
+   .lua{
+       margin-left: 40px;
+       width: 400px;
+       margin-top: 50px;
+   }
+   .moons{
+       margin-left: 200px;
+       width: 500px;
+       margin-top: 0px;
+   }
+   .linha-traco{
+       margin-top: 0px;
+   }
+   .lista .butao{
+    font-size: 20px;
+    margin-left: 120px;
+    margin-right: 0px;
+}
+.b1{
+    font-size: 20px;
+    margin-right: 10px;
+}
+}
+@media screen and (max-width:912px) {
+    body{
+        background-image: url('./space-tourism-website-main/space-tourism-website-main/starter-code/assets/destination/background-destination-tablet.jpg');
+    }
+    .imagem{
+    width: 60px;
+    }
+    .hr{
+        margin-left: 50px;
+        width: 300px;
+    }
+  .title{
+      margin-top: 160px;
+  }
+  .lua{
+      margin-top:80px;
+  }
+    .linha-traco{
+        margin-top: 70px;
+    }
+    .lista .butao{
+        font-size: 20px;
+        margin-left: 120px;
+        margin-right: 0px;
+    }
+    .b1{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .linha::after{
+     content:'';
+     border-bottom: white 2px solid;
+     display: block;
+     width: 120px;
+     margin-left: 155px;
+     margin-top: 0px;
+ }
+ .moons button{
+     font-size: 25px;
+ }
+ .moon-txt{
+     font-size: 20px;
+ }
+ .btnfdp {
+  width: 100px;
+
+ 
+ }
+}
+@media screen and (max-width:820px) {
+   .lista .butao{
+       font-size: 23px;
+       margin-left: 20px;
+   }
+   .b1{
+       font-size: 23px;
+   }
+   .linha::after{
+    content:'';
+    border-bottom: white 2px solid;
+    display: block;
+    width: 80px;
+    margin-left: 155px;
+    margin-top: 0px;
+}
+.moons button{
+    font-size: 25px;
+}
+.moon-txt{
+    font-size: 20px;
+}
+.lista .butao{
+    font-size: 20px;
+    margin-left: 120px;
+    margin-right: 0px;
+}
+.b1{
+    font-size: 20px;
+    margin-right: 10px;
+}
+}
+@media screen and (max-width:768px) {
+    .lista {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:540px) {
+.imagem{
+    margin-left: 20px;
+}
+.hr{
+    width: 250px;
+    margin-left: 100px;
+}
+.lista{
+    height: 100px;
+    width: 600px;
+    margin-left: 100px;
+}
+.lista .butao{
+    font-size: 19px;
+    margin-right: 0px;
+    margin-left: 100px;
+}
+.b1{
+    font-size: 19px;
+    margin-right: 0px;
+}
+.title{
+    margin-top: 100px;
+}
+.lua{
+    width: 370px;
+    margin-top: 120px;
+}
+.moons{
+    margin-top: 20px;
+}
+}
+@media screen and (max-width:425px) {
+ 
+        .lista{
+            display: none;
+        }
+        .imagem{
+            width: 50px;
+            margin-top: 20px;
+        }
+        .hr{
+            display: none;
+        }
+        .mobile-section{
+            display: block;
+        }
+        .menu-img{
+            width: 50px;
+            margin-left: 70px;
+            margin-top: 20px;
+            transition: 1s all;
+        }
+        .mobile-section button{
+            background-color: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            position: absolute;
+            margin-left: 40px;
+            z-index: 3;
+        }
+        .menuu a{
+            font-size: 25px;
+            background-color: #575c65;
+            width: 50px;
+            
+               }
+               .colapsu{
+                width: 200px;
+            height: 100px;
+            margin-left: -20px;
+             position:absolute;
+             margin-top: -150px;
+             z-index: 1;
+            }
+            .colapsu li{
+                font-family:  "Barlow Condensed",sans-serif;  
+                color:#d2d8f9;
+              margin-left: 0px;
+            padding-top: 120px;
+        
+            }
+            .colapsu ul{
+                margin-top: 150px;
+                backdrop-filter: blur(80px);
+            height:895px;
+            width: 150px;
+            margin-left: 60px;
+            }
+        
+            .colapsu a{
+                color: white;
+                list-style: none;
+                font-size: 18px;
+                z-index: 2;
+        
+            }
+            .title{
+                margin-left: 200px;
+                letter-spacing: 0px;
+                width: auto;
+                margin-top: 50px;
+            }
+            .lua{
+                margin-top: 10px;
+                margin-left: 60px;
+                width: 250px;
+            }
+            .moons{
+                margin-top: 270px;
+                margin-left: -180px;
+                width: auto;
+            }
+            .moons button{
+                margin-right: 10px;
+                font-size: 18px;
+            }
+            .moon-info{
+                margin-left: -260px;
+                width: auto;
+            }
+            .linha-traco{
+                width: 350px;
+                margin-top: 0px;
+            }
+            .moon-txt{
+                width: 350px;
+                text-align: center;
+                font-size: 17px;
+            }
+            .moon-title{
+                font-size: 75px;
+                margin-left: 110px;
+                margin-top: 0px;
+            }
+            .avg-result{
+                font-size: 25px;
+                margin-right: 80px;
+            }
+            .avg-est-result{
+                font-size: 25px;
+            }
+            .menu1::after{
+                content: '';
+                border-bottom: 1px solid white;
+            }
+        
+}
+
+@media screen and (max-width:414px) {
+.lista{
+    display: none;
+}
+.imagem{
+    width: 50px;
+    margin-top: 20px;
+}
+.hr{
+    display: none;
+}
+.mobile-section{
+    display: block;
+}
+.menu-img{
+    width: 50px;
+    margin-left: 70px;
+    margin-top: 20px;
+    transition: 1s all;
+}
+.mobile-section button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 40px;
+    z-index: 3;
+}
+.menuu a{
+    font-size: 25px;
+    background-color: #575c65;
+    width: 50px;
+    
+       }
+       .colapsu{
+        width: 200px;
+    height: 100px;
+    margin-left: -20px;
+     position:absolute;
+     margin-top: -150px;
+     z-index: 1;
+    }
+    .colapsu li{
+        font-family:  "Barlow Condensed",sans-serif;  
+        color:#d2d8f9;
+      margin-left: 0px;
+    padding-top: 120px;
+
+    }
+    .colapsu ul{
+        margin-top: 150px;
+        backdrop-filter: blur(80px);
+    height:895px;
+    width: 150px;
+    margin-left: 60px;
+    }
+
+    .colapsu a{
+        color: white;
+        list-style: none;
+        font-size: 18px;
+        z-index: 2;
+
+    }
+    .title{
+        margin-left: 200px;
+        letter-spacing: 0px;
+        width: auto;
+        margin-top: 50px;
+    }
+    .lua{
+        margin-top: 10px;
+        margin-left: 60px;
+        width: 250px;
+    }
+    .moons{
+        margin-top: 270px;
+        margin-left: -180px;
+        width: auto;
+    }
+    .moons button{
+        margin-right: 10px;
+        font-size: 18px;
+    }
+    .moon-info{
+        margin-left: -260px;
+        width: auto;
+    }
+    .linha-traco{
+        width: 350px;
+        margin-top: 0px;
+    }
+    .moon-txt{
+        width: 350px;
+        text-align: center;
+        font-size: 17px;
+    }
+    .moon-title{
+        font-size: 75px;
+        margin-left: 110px;
+        margin-top: 0px;
+    }
+    .avg-result{
+        font-size: 25px;
+        margin-right: 80px;
+    }
+    .avg-est-result{
+        font-size: 25px;
+    }
+    .menu1::after{
+        content: '';
+        border-bottom: 1px solid white;
+    }
+}
+@media screen and (max-width:393px) {
+.title h1{
+    font-size: 18px;
+}
+.title h2{
+    font-size: 18px;
+}
+.title{
+    margin-left: 230px;
+}
+.lua{
+    width: 230px;
+}
+.moons{
+    margin-top: 250px;
+}
+.avg-est-result{
+    margin-top: -10px;
+}
+.colapsu{
+    margin-left: -35px;
+}
+
+}
+@media screen and (max-width:380px) {
+    .title{
+        margin-left: 220px;
+    }
+    .moon-txt{
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .colapsu{
+        margin-left: -35px;
+    }
+    .title{
+        margin-right: 20px;
+    }
+    .moons{
+     margin-left: -170px;
+    }
+    .moon-title{
+        margin-left: 110px;
+    }
+    .moon-txt{
+        margin-left: 60px;
+    }
+    .linha-traco{
+        margin-left: 80px;
+        width: 300px;
+    }
+    .avg-est-result li{
+        font-size: 20px;
+    }
+    .info-avg{
+      margin-left: 20px;
+      margin-right: 60px;
+    }
+    .avg-result{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:360px) {
+.colapsu{
+    margin-left: -45px;
+}
+.title h1{
+margin-left: -160px;
+width: 250px;
+}
+.moons{
+    margin-left: -170px;
+    width: 350px;
+}
+.moon-txt{
+    margin-left: 70px;
+}
+.linha-traco{
+    margin-left: 100px;
+}
+.avg-result{
+    margin-right: 40px;
+}
+}
+@media screen and (max-width:320px) {
+    .moons{
+        margin-left: -160px;
+        width: auto;
+    }
+    .moons button{
+    font-size: 17px;
+      margin-right: 0px;
+    }
+    .lua{
+        margin-left: 20px;
+    }
+   .title h1{
+       margin-left: -190px;
+   }
+   .title h2{
+       margin-left: -220px;
+   }
+   .imagem{
+       margin-left: 0px;
+   }
+   .menu-img{
+       margin-left: 40px;
+   }
+   .moon-txt{
+       font-size: 17px;
+       width: 300px;
+       margin-left: 90px;
+   }
+   .linha-traco{
+       margin-left: 92px;
+   }
+   .colapsu{
+       margin-left: -70px;
+   }
+   .avg-result{
+       margin-left: 40px;
+       font-size: 20px;
+   }
+  .info-avg{
+      margin-right: 30px;
+      margin-left: 40px;
+  }
+}

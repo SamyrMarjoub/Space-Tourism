@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Itim&family=Roboto:ital,wght@0,100;0,300;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Barlow:wght@100&family=Bellefair&family=Itim&family=Roboto:ital,wght@0,100;0,300;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bellefair&family=Itim&family=Roboto:ital,wght@0,100;0,300;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Forum&display=swap');
+body{
+    background-image: url('./space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg');
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+header{
+    width: 100%;
+}
+.b1{
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-top:0px;
+    margin-right: 80px;
+ margin-left:70px;
+ cursor: pointer;  
+ height: 78px;
+ outline: none;
+ font-family:  "Barlow Condensed",sans-serif;
+ font-size: 15px;
+ letter-spacing: 2px;
+ font-weight: 800;
+}
+
+.linha::after{
+    content:'';
+    border-bottom: white 2px solid;
+    display: block;
+    width: 110px;
+    margin-left: 70px;
+    margin-top: 0px;
+}
+.hr{
+    background-color: #575c65;
+    width: 600px;
+    height: 1px;
+    margin-left: 150px;
+    margin-top: -20px;
+}
+.lista{
+  background-color: hsla(0,0%,100%,.05);
+  backdrop-filter: blur(80px);
+  width: 1100px;
+  height: 100px;
+  margin-left: -160px;
+  margin-top: 40px;
+}
+.mobile-section{
+    display: none;
+}
+.lista .butao{
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-top:30px;
+    margin-right: 80px;
+ margin-left:70px;
+ cursor: pointer;  
+ height: 78px;
+ outline: none;
+ font-family:  "Barlow Condensed",sans-serif;
+ font-size: 15px;
+ letter-spacing: 2px;
+ font-weight: 800;
+}
+.lista a{
+    text-decoration: none;
+    color: white;
+}
+.imagem{
+    margin-left: -300px;
+    margin-top: 70px;
+}
+.hr{
+    margin-left: -200px;
+}
+
+.lista .butao:after {
+    display:block;
+    content: '';
+    border-bottom: solid 2px rgb(167, 164, 164);  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+  .lista .butao:hover:after { transform: scaleX(1);
+ }
+  .lista .butao.Left:after{  transform-origin:  0% 50%; 
+padding-bottom: 30px;
+}
+.num{
+    color: #8a8ca3;
+    margin-left: -200px;
+    margin-top: 0px;  
+    float: left;  
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    }
+    .title{
+        margin-left:-150px;
+        font-family:  "Barlow Condensed",sans-serif;
+        font-size: 25px;
+        margin-top: 25px;
+        letter-spacing: 5px;
+        font-weight: 900;
+    }
+    .list button{
+        width: 70px;
+        height: 70px;
+        border-radius: 70px;
+        background-color: transparent;
+        list-style: none;
+        color: white;
+        font-size: 35px;
+   font-family: 'Forum', cursive;
+   margin-top: 30px;
+outline: none;
+border-color: white;
+cursor: pointer;
+border: 1px solid white;
+    }
+    .list li{
+        list-style: none;
+        border-color: white;
+    }
+    .list{
+        margin-top: 100px;
+        margin-left: -250px;
+        float: left;
+    }
+    .list button:focus{
+        background-color: white;
+        color: black;
+    }
+    .Cn{
+        float: left;
+        margin-top: 130px;
+        margin-left: -100px;
+    }
+    .subtitle{
+        font-size: 17px;
+        color: #D0D6F9;
+        font-family: 'Barlow', sans-serif;
+        font-family: 'Forum', cursive;
+font-weight: 600;
+text-transform: uppercase;
+    }
+    .titlee{
+margin-bottom: 25px;
+font-size: 68px;
+font-family: 'Forum', cursive;
+    }
+    .paragraph{
+        color: #D0D6F9;
+        width: 500px;
+letter-spacing: 2px;
+
+    }
+    .imgg{
+        width: 500px;
+    }
+    .imagem-m{
+        margin-top: 100px;
+        margin-left: 440px;
+    }
+    
+@media screen and (max-width:1440px) {
+
+    .imagem{
+        margin-left: -130px;
+    }
+    .hr{
+        width: 400px;
+        margin-left: -50px;
+    }
+    .title{
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .titulos{
+        margin-left: -190px;
+    }
+    .num{
+        margin-left: 90px;
+        margin-top: -10px;
+    }
+   .container-all{
+       margin-left: 100px;
+       margin-top: 50px;
+   }
+   .imgg{
+       margin-left: -50px;
+   }
+}
+@media screen and (max-width:1280px) {
+    .imagem{
+        margin-left: -10px;
+    }
+    .hr{
+        width: 300px;
+        margin-left: 80px;
+    }
+    .title{
+        margin-left: 200px;
+        margin-top: 100px;
+        font-size: 30px;
+    }
+    .container-all{
+        margin-left: 200px;
+    }
+    .titulos{
+        margin-left: -90px;
+    }
+    .num{
+        margin-left: 130px;
+    }
+    .paragraph{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width:912px) {
+    body{
+        background-image: url('./space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/background-technology-tablet.jpg');
+    }
+    .lista{
+        width: 730px;
+        margin-left: 120px;
+    }
+   .lista .butao{
+    margin-right: -50px;
+    margin-left: 80px;
+    font-size: 23px;
+    }
+    .b1{
+        margin-right: 0px;
+      
+    }
+    .imgg{
+        margin-left: -100px;
+        width: 400px;
+    }
+   .linha::after{
+       width: 140px;
+       margin-left: 90px;
+   }
+   .hr{
+       display: none;
+   }
+  .title{
+      width: 300px;
+  }
+  .num{
+      margin-top: 0px;
+  }
+  .titulos{
+      margin-top: -60px;
+  }
+    .imgg{
+        width: 1100px;
+        margin-left: -800px;
+    }
+    .container-all{
+        margin-top: 500px;
+    }
+    .list{
+        margin-top:-20px;
+        margin-right: 100px;
+        width: 500px;
+        margin-left: 200px;
+    }
+    .list button{
+        margin-right: 20px;
+    }
+    .Cn{
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .subtitle{
+        margin-left: 120px;
+       font-size: 25px;
+    }
+    .paragraph{
+        width: 700px;
+        margin-left: -70px;
+    }
+    .tamanho{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:540px) {
+
+    .imgg{
+        width: 1200px;
+    }
+    .titulos{
+        margin-left: 250px;
+    }
+    .imagem{
+        width: 70px;
+        margin-left: 10px;
+        margin-top: 60px;
+
+    }
+    .list{
+        margin-top: 10px;
+        margin-left: 150px;
+    }
+    .list button{
+        width: 100px;
+        border-radius: 100px;
+        height: 100px;
+    }
+    .subtitle{
+        font-size: 30px;
+    }
+    .paragraph{
+        font-size: 30px;
+        width: 900px;
+        margin-left: -200px;
+        text-align: center;
+    }
+   
+}
+@media screen and (max-width:425px) {
+    body{
+        background-image: url('./space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/background-technology-mobile.jpg');
+    }
+    .lista{
+        display: none;
+    }
+    .mobile-section{
+        display: block;
+    }
+    .colapsu{
+        width: 400px;
+    height: 100px;
+    margin-left:440px;
+     position:absolute;
+     margin-top: -150px;
+     z-index: 1;
+    }
+    .colapsu li{
+        font-family:  "Barlow Condensed",sans-serif;  
+        color:#d2d8f9;
+      margin-left: 0px;
+    padding-top: 320px;
+
+    }
+    .colapsu ul{
+        margin-top: 50px;
+        backdrop-filter: blur(80px);
+    height:1705px;
+    width: 350px;
+    margin-left: 30px;
+    }
+
+    .colapsu a{
+        color: white;
+        list-style: none;
+        font-size: 18px;
+        z-index: 2;
+        font-size: 55px;
+}
+.menu-img{
+    width: 100px;
+    margin-left:650px;
+    margin-top: 20px;
+    transition: 1s all;
+}
+.mobile-section button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 40px;
+    z-index: 3;
+}
+.imagem{
+    width: 110px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.num{
+    font-size: 35px;
+    margin-left: 110px;
+    margin-top: -10px;
+}
+.title{
+    font-size: 35px;
+}
+.imgg{
+    margin-top: 50px;
+}
+.list{
+    margin-top: 100px;
+    margin-left: 110px;
+}
+.subtitle{
+letter-spacing: 5px;
+margin-left: 20px;
+}
+.paragraph{
+    letter-spacing: 5px;
+    margin-left: -240px;
+}
+.titlee{
+    margin-left: -50px;
+}
+}
