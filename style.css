@@ -430,7 +430,7 @@ width: 50px;
 }
 
 .explorar{
-   bottom: 0;
+    margin-top: 100px;
     width: 250px;
     height: 250px;
     border-radius: 250px;
@@ -446,7 +446,7 @@ font-size: 35px;
 }
 .txt h2{
     
-    margin-top: -250px;
+    margin-top: -230px;
     margin-left: 320px;
 }
 .txt h1{
