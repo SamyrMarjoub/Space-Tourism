@@ -425,7 +425,10 @@ width: 50px;
    
 }
 @media screen and (max-width:414px) {
-.colapsu{
+html{
+    height: auto;
+}
+    .colapsu{
     margin-left: 310px;
 }
 
