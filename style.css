@@ -555,3 +555,9 @@ margin-top: -230px;
     }
 }
 
+@media only screen and(-webkit-min-device-pixel-ratio:3){
+    .txt p {
+        font-size: 15px;
+    }
+    
+}
