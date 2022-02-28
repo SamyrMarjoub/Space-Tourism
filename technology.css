@@ -334,7 +334,10 @@ letter-spacing: 2px;
         background-image: url('./space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/background-technology-mobile.jpg');
   
     }
-  
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
     .lista{
         display: none;
     }
