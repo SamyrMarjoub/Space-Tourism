@@ -332,7 +332,9 @@ letter-spacing: 2px;
 @media screen and (max-width:425px) {
     body{
         background-image: url('./space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/background-technology-mobile.jpg');
+  
     }
+  
     .lista{
         display: none;
     }
