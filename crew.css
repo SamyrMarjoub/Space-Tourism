@@ -448,7 +448,7 @@ font-size: 30px;
         backdrop-filter: blur(80px);
     height:500px;
     width: 150px;
-    margin-left: 75px;
+    margin-left: 95px;
    
     }
 
@@ -459,5 +459,10 @@ font-size: 30px;
         z-index: 2;
         font-size: 20px;
 
+}
+}
+@media screen and (max-width:390px) {
+.colapsu ul{
+    margin-left: 75px;
 }
 }

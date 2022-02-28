@@ -460,20 +460,21 @@ font-size: 30px;
              position:absolute;
              margin-top: -150px;
              z-index: 1;
+          
             }
             .colapsu li{
                 font-family:  "Barlow Condensed",sans-serif;  
                 color:#d2d8f9;
               margin-left: 0px;
-            padding-top: 60px;
+            padding-top: 90px;
         
             }
             .colapsu ul{
-                margin-top: 200px;
+                margin-top: 150px;
                 backdrop-filter: blur(80px);
-            height:895px;
+            height:500px;
             width: 150px;
-            margin-left: 60px;
+            margin-left: 70px;
             }
         
             .colapsu a{

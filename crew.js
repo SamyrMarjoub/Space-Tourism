@@ -15,8 +15,7 @@ btn.addEventListener('click', function () {
     description.innerHTML = 'Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.'
     img.setAttribute('src', './space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/image-douglas-hurley.png')
     img.style.width = '400px'
-butoes.style.marginTop = '-280px'
-img.style.marginTop = '10px'
+
      
 })
 btn2.addEventListener('click', function () {

@@ -347,7 +347,7 @@ letter-spacing: 2px;
     .colapsu{
         width: 400px;
     height: 100px;
-    margin-left:440px;
+    margin-left:40px;
      position:absolute;
      margin-top: -150px;
      z-index: 1;
@@ -356,15 +356,15 @@ letter-spacing: 2px;
         font-family:  "Barlow Condensed",sans-serif;  
         color:#d2d8f9;
       margin-left: 0px;
-    padding-top: 320px;
+    padding-top: 100px;
 
     }
     .colapsu ul{
-        margin-top: 50px;
+        margin-top: 250px;
         backdrop-filter: blur(80px);
-    height:1705px;
+    height:1205px;
     width: 350px;
-    margin-left: 30px;
+    margin-left: 100px;
     }
 
     .colapsu a{
@@ -372,7 +372,7 @@ letter-spacing: 2px;
         list-style: none;
         font-size: 18px;
         z-index: 2;
-        font-size: 55px;
+        font-size: 45px;
 }
 .menu-img{
     width: 100px;
