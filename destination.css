@@ -532,7 +532,10 @@ font-size: 30px;
                 content: '';
                 border-bottom: 1px solid white;
             }
-        
+            body {
+                overflow-x: hidden;
+                width: 100%;
+            }
 }
 
 @media screen and (max-width:414px) {

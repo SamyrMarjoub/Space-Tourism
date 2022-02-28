@@ -11,6 +11,8 @@ const resulavg = document.querySelector('.avg-result')
 const resultest = document.querySelector('.est-result')
 const mooninfo = document.querySelector('.moon-info')
 const menu = document.querySelector(".menu-img")
+let vn = document.documentElement.clientWidth
+
 let i = 0
 menu.addEventListener('click', function (e) {
     i++
@@ -36,6 +38,9 @@ moon.addEventListener('click', function () {
         resulavg.innerHTML = '384,400 KM'
         resultest.innerHTML = '3 DAYS'
         title.style.marginLeft = '50px'
+        if(vn <=425){
+            title.style.marginLeft = '110px'
+        }
 
     }, 500)
 })
@@ -53,7 +58,9 @@ mars.addEventListener('click', function () {
         resulavg.innerHTML = '225 MIL. KM'
         resultest.innerHTML = '9 MONTHS'
         title.style.marginLeft = '50px'
-
+        if(vn <=425){
+            title.style.marginLeft = '135px'
+        }
     }, 500)
 })
 europa.addEventListener('click', function () {
@@ -70,6 +77,9 @@ europa.addEventListener('click', function () {
         resulavg.innerHTML = '628 MIL. KM'
         resultest.innerHTML = '3 YEARS'
         title.style.marginLeft = '50px'
+        if(vn <=425){
+            title.style.marginLeft = '80px'
+        }
     }, 500)
 })
 titan.addEventListener('click', function () {
@@ -86,6 +96,9 @@ titan.addEventListener('click', function () {
         resulavg.innerHTML = '1.6 BIL. KM'
         resultest.innerHTML = '7 YEARS'
         title.style.marginLeft = '50px'
+        if(vn <=425){
+            title.style.marginLeft = '120px'
+        }
 
     }, 500)
 
