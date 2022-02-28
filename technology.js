@@ -9,7 +9,7 @@ const list = document.querySelector('.list')
 const ullist = document.querySelector('.ul-list1')
 const ullist2 = document.querySelector('.ul-list2')
 const ullist3 = document.querySelector('.ul-list3')
-
+const menuimg = document.querySelector('.menu-img')
 let vn = document.documentElement.clientWidth
 if (vn < 1000) {
     img.setAttribute('src', './space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/image-launch-vehicle-landscape.jpg')
@@ -60,7 +60,6 @@ btn1.addEventListener('click', function () {
     if(vn<500){
         title.style.marginLeft = '-50px'
         title.style.transition = 'none'
-location.reload(1)
     }
 
 })
@@ -137,3 +136,10 @@ btn3.addEventListener('click', function () {
 })
 
 
+
+if(vn<500){
+    document.body.style.zoom = '35%'
+    img.style.marginLeft = '-950px'
+    img.style.width = '1000px'
+    menuimg.style.marginLeft = '300px'
+}

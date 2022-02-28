@@ -3,7 +3,8 @@ const b2 = document.querySelector('.b2')
 const b3 = document.querySelector('.b3')
 const b4 = document.querySelector('.b4')
 const menu = document.querySelector('.menu-img')
-
+let vn = document.documentElement.clientWidth
+const body = document.body
 let i = 0
 menu.addEventListener('click', function (e) {
     i++
@@ -15,3 +16,4 @@ menu.addEventListener('click', function (e) {
     }
 
 })
+

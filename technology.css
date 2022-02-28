@@ -169,6 +169,28 @@ letter-spacing: 2px;
         margin-top: 100px;
         margin-left: 440px;
     }
+@media screen and (max-width:1680px) {
+    .hr{
+        width: 500px;
+        margin-left: -150px;
+    }
+    .imagem{
+        margin-left: -220px;
+    }
+    .lista{
+        width: 975px;
+    }
+    .imgg{
+        margin-left: -130px;
+    }
+    .lista .butao{
+        margin-right: 0px;
+        margin-left: 100px;
+    }
+    .linha::after{
+        margin-left: 100px;
+    }
+}
     
 @media screen and (max-width:1440px) {
 
@@ -195,16 +217,18 @@ letter-spacing: 2px;
        margin-top: 50px;
    }
    .imgg{
-       margin-left: -50px;
+       margin-left: -250px;
+   }.lista{
+       width: 855px;
    }
 }
 @media screen and (max-width:1280px) {
     .imagem{
-        margin-left: -10px;
+        margin-left: -30px;
     }
     .hr{
         width: 300px;
-        margin-left: 80px;
+        margin-left: 50px;
     }
     .title{
         margin-left: 200px;
@@ -223,8 +247,51 @@ letter-spacing: 2px;
     .paragraph{
         font-size: 19px;
     }
+    .Cn{
+        margin-top: 10px;
+    }
+    .list{
+        margin-top: 10px;
+    }
+    .imgg{
+        width: 400px;
+    }
+    .lista .butao{
+        margin-left: 60px;
+    }
+    .linha::after{
+        margin-left: 65px;
+    }
 }
-
+@media screen and (max-width:1024px) {
+.lista{
+    width: 660px;
+}.imgg{
+    width: 350px;
+    margin-left: -300px;
+}
+.titulos h1{
+font-size: 25px;
+}
+.titulos{
+    margin-top: -50px;
+}
+.lista .butao{
+    margin-left: 50px;
+}
+.linha::after{
+    margin-left: 50px;
+}
+.Cn{
+    margin-top:0px;
+}
+.list{
+    margin-top: -10px;
+}
+.hr{
+    width: 200px;
+}
+}
 @media screen and (max-width:912px) {
     body{
         background-image: url('./space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/background-technology-tablet.jpg');
@@ -332,6 +399,11 @@ letter-spacing: 2px;
 @media screen and (max-width:425px) {
     body{
         background-image: url('./space-tourism-website-main/space-tourism-website-main/starter-code/assets/technology/background-technology-mobile.jpg');
+  
+    }
+    body {
+        overflow-x: hidden;
+        width: 100%;
     }
     .lista{
         display: none;
@@ -342,7 +414,7 @@ letter-spacing: 2px;
     .colapsu{
         width: 400px;
     height: 100px;
-    margin-left:440px;
+    margin-left:40px;
      position:absolute;
      margin-top: -150px;
      z-index: 1;
@@ -351,15 +423,15 @@ letter-spacing: 2px;
         font-family:  "Barlow Condensed",sans-serif;  
         color:#d2d8f9;
       margin-left: 0px;
-    padding-top: 320px;
+    padding-top: 100px;
 
     }
     .colapsu ul{
-        margin-top: 50px;
+        margin-top: 250px;
         backdrop-filter: blur(80px);
-    height:1705px;
+    height:1205px;
     width: 350px;
-    margin-left: 30px;
+    margin-left: 100px;
     }
 
     .colapsu a{
@@ -367,7 +439,7 @@ letter-spacing: 2px;
         list-style: none;
         font-size: 18px;
         z-index: 2;
-        font-size: 55px;
+        font-size: 45px;
 }
 .menu-img{
     width: 100px;
