@@ -150,13 +150,23 @@ border: 1px solid white;
 .imagem-2 img{
     width:400px;
 }
+@media screen and (max-width:1680px) {
+.hr{
+    width: 500px;
+    margin-left: -120px;
+}
+.imagem{
+    margin-left: -200px;
+}
+}
+
 @media screen and (max-width:1440px) {
     .imagem{
-        margin-left: -130px;
+        margin-left: -90px;
     }
     .hr{
         width: 400px;
-        margin-left: -50px;
+        margin-left: 20px;
     }
     .title{
         margin-left: 150px;
@@ -175,6 +185,7 @@ border: 1px solid white;
         margin-left: 100px;
         margin-top: -5px;
         font-size: 25px;
+
     }
 .titulo{
     margin-top: 50px;
@@ -197,7 +208,21 @@ border: 1px solid white;
 .description{
     font-size:18px;
 }
-
+.lista{
+    width: 800px;
+    margin-left: -105px;
+}
+.imagemI{
+    margin-left: -200px;
+    width: 400px;
+}
+.lista .butao{
+    margin-left: 100px;
+    margin-right: 0px;
+}
+.b1{
+    margin-right: 0px;
+}
 }
 @media screen and (max-width:1280px) {
     .imagem{
@@ -205,7 +230,7 @@ border: 1px solid white;
     }
     .hr{
         width: 300px;
-        margin-left: 80px;
+        margin-left: 100px;
     }
     .title{
         margin-left: 200px;
@@ -214,9 +239,11 @@ border: 1px solid white;
     }
     .lista .butao{
         font-size: 20px;
+        margin-left: 30px;
     }
     .b1{
         font-size: 20px;
+        margin-left: 30px;
     }
     .num{
         font-size: 30px;
@@ -224,7 +251,44 @@ border: 1px solid white;
     .description{
         font-size: 20px;
     }
+    .linha::after{
+        margin-left: 40px;
+    }
 }
+@media screen and (max-width:1024px) {
+    .hr{
+        width: 250px;
+    }
+    .lista{
+        width: 590px;
+    }
+   .imagemI{
+       max-width: 300px;
+       margin-left: -150px;
+       margin-top: 50px;
+   }
+   .lista .butao{
+       font-size: 18px;
+       margin-left: 20px;   
+   }
+.b1{
+   margin-left: 30px;
+   
+}
+.titulo{
+    margin-top: -50px;
+}
+.titulo h1{
+    font-size: 30px;
+}
+.meet{
+    margin-top: -110px;
+}
+.linha::after{
+    margin-left: 40px;
+}
+}
+
 @media screen and (max-width:912px) {
     body{
         background-image: url('./space-tourism-website-main/space-tourism-website-main/starter-code/assets/crew/background-crew-tablet.jpg');

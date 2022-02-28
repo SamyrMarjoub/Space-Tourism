@@ -136,6 +136,7 @@ btn3.addEventListener('click', function () {
 })
 
 
+
 if(vn<500){
     document.body.style.zoom = '35%'
     img.style.marginLeft = '-950px'

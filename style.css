@@ -146,6 +146,22 @@ text-decoration: none;
     left: 45%;
     position: fixed;
 }
+@media screen and (max-width:1680px) {
+    .hr{
+        width: 650px;
+        margin-left: -110px;
+    }
+    .imagem{
+        margin-left: -200px;
+    }
+    .lista{
+        width: 815px;
+    }
+    .lista .butao{
+        margin-left: 50px;
+    }
+}
+
 @media screen and (max-width:1440px) {
 
 .explore{
@@ -163,7 +179,7 @@ margin-left: 130px;
     margin-left: 150px;
 }
 .lista{
-width: 805px;
+width: 795px;
 margin-left: -100px;
 
 }
@@ -216,17 +232,19 @@ margin-left: -100px;
 }
 @media screen and (max-width:1024px) {
 .lista{
-    margin-left: 100px;
+    margin-left: -105px;
+    width: 600px;
 }
 .imagem{
     margin-left: 10px;
 }
 .hr{
-    margin-left: 120px;
+    margin-left: 100px;
+    width: 250px;
 }
 .explorar{
-    margin-left: 700px;
-    margin-top: -120px;
+    margin-left: 400px;
+    margin-top: -150px;
 
 }
 .txt {

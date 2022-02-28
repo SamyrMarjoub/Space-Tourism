@@ -186,6 +186,15 @@ font-size: 30px;
     margin-right: 60px;
 
 }
+@media screen and (max-width:1680px) {
+    .imagem{
+        margin-left: -200px;
+    }
+    .hr{
+        width: 500px;
+        margin-left: -120px;
+    }
+}
 @media screen and (max-width:1440px) {
 .imagem{
     margin-left: -130px;
@@ -212,18 +221,33 @@ font-size: 30px;
     content:'';
     border-bottom: white 2px solid;
     display: block;
-    width: 60px;
-    margin-left: 75px;
+    width: 100px;
+    margin-left: 0px;
     margin-top: 0px;
+}
+.lista{
+    width: 850px;
+}
+.lista button{
+   margin-left: -10px;
+}
+.lista .butao{
+    margin-left: 50px;
+ 
+}
+
+.b1{
+    margin-right: 30px;
+    margin-left: 50px;
 }
 }
 @media screen and (max-width:1280px) {
     .imagem{
-        margin-left: -10px;
+        margin-left: -30px;
     }
     .hr{
-        width: 300px;
-        margin-left: 80px;
+        width: 350px;
+        margin-left: 40px;
     }
     .title{
         margin-left: 200px;
@@ -233,11 +257,27 @@ font-size: 30px;
         margin-left:0px;
     }
     .moon-info{
-        margin-left: 150px;
+        margin-left: 50px;
+       
+    }
+    .lista{
+        width:780px;
     }
     .moons{
-        margin-left: 200px;
+        margin-left: 100px;
         width: 500px;
+        margin-top: -20px;
+
+    }
+    .lua{
+        margin-top: 30px;
+    }
+    .lista .butao{
+       margin-left: 50px;
+       margin-right: 50px;
+    }
+    .b1{
+     margin-right: 0px;
     }
 }
 @media screen and (max-width:1024px) {
@@ -245,12 +285,12 @@ font-size: 30px;
         margin-left: -30px;
     }
     .hr{
-        width: 350px;
-        margin-left: 80px;
+        width: 300px;
+        margin-left: 50px;
     }
     .lista{
-      width:700px;
-     margin-left: 10px;
+      width:595px;
+     margin-left: -100px;
     }
     
     .lista li{
@@ -258,12 +298,13 @@ font-size: 30px;
     }
     .lista button{
         margin-left: 150px;
+        font-size:17px;
     }
     .linha::after{
         content:'';
         border-bottom: white 2px solid;
         display: block;
-        width: 60px;
+        width: 110px;
         margin-left: 155px;
         margin-top: 0px;
     }
@@ -280,21 +321,27 @@ font-size: 30px;
        margin-top: 50px;
    }
    .moons{
-       margin-left: 200px;
-       width: 500px;
+       margin-left: 50px;
+       width: 390px;
        margin-top: 0px;
    }
    .linha-traco{
        margin-top: 0px;
    }
    .lista .butao{
-    font-size: 20px;
+    font-size: 19px;
     margin-left: 120px;
     margin-right: 0px;
 }
 .b1{
-    font-size: 20px;
+    font-size: 19px;
     margin-right: 10px;
+}
+.moon-info{
+    margin-left: -00px;
+}
+.linha-traco{
+    width: 400px;
 }
 }
 @media screen and (max-width:912px) {
@@ -418,7 +465,6 @@ font-size: 30px;
 }
 }
 @media screen and (max-width:425px) {
- 
         .lista{
             display: none;
         }
@@ -466,15 +512,15 @@ font-size: 30px;
                 font-family:  "Barlow Condensed",sans-serif;  
                 color:#d2d8f9;
               margin-left: 0px;
-            padding-top: 90px;
+            padding-top: 80px;
         
             }
             .colapsu ul{
                 margin-top: 150px;
                 backdrop-filter: blur(80px);
-            height:500px;
+            height:505px;
             width: 150px;
-            margin-left: 70px;
+            margin-left: 60px;
             }
         
             .colapsu a{
@@ -586,13 +632,13 @@ font-size: 30px;
         font-family:  "Barlow Condensed",sans-serif;  
         color:#d2d8f9;
       margin-left: 0px;
-    padding-top: 120px;
+    padding-top: 80px;
 
     }
     .colapsu ul{
         margin-top: 150px;
         backdrop-filter: blur(80px);
-    height:895px;
+    height:505px;
     width: 150px;
     margin-left: 60px;
     }
