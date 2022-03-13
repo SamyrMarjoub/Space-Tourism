@@ -4,6 +4,6 @@ Space Tourism challenge from FrontEnd Mentor -- Desafio ''Turismo espacial'' Do 
 <div> <img src='./images/PrintSpaceTourismm.png' width='1001px'> </div>
 <br> <br>
 <hr>
-<center>
-<div> <img src='./images/space-mobile.jpg' width='300px' > </div> 
-</center>
+
+<div> <img src='./images/space-mobile.jpg' width='300px' style='margin-left='40%'> </div> 
+
